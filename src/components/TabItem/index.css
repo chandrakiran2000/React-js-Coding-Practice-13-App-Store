@@ -1,0 +1,43 @@
+/* Write your CSS here */
+
+@media screen and (max-width: 768px) {
+  .tab-btn-card {
+  }
+  .tab-btn {
+    height: 40px;
+    width: 70px;
+    font-size: 17px;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-bottom: 2px solid #dfe2e5;
+    color: #7b8794;
+  }
+
+  .activate {
+    border-bottom: 2px solid #2563eb;
+    color: #2563eb;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .tab-btn-card {
+  }
+  .tab-btn {
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-bottom: 2px solid #dfe2e5;
+    color: #7b8794;
+  }
+
+  .activate {
+    border-bottom: 2px solid #2563eb;
+    color: #2563eb;
+  }
+}

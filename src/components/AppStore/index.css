@@ -1,0 +1,135 @@
+/* Write your CSS here */
+
+.bg-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  font-family: 'Bree Serif';
+  margin-left: -40px;
+}
+
+@media screen and (max-width: 768px) {
+  .app-store-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .app-store-heading {
+    color: #1e293b;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 30px;
+  }
+
+  .search-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #7b8794;
+    padding: 10px;
+    border-radius: 10px;
+    width: 230px;
+    margin-left: 30px;
+  }
+  .input-search {
+    width: 200px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    outline: none;
+    color: #1e293b;
+    align-self: center;
+  }
+  .search-img {
+    height: 20px;
+    width: 20px;
+    margin-top: 3px;
+  }
+
+  .tabitem-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    list-style-type: none;
+  }
+
+  .app-item-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-width: 20vh;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .app-store-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .app-store-heading {
+    color: #1e293b;
+    font-size: 40px;
+    text-align: center;
+    margin-left: 30px;
+  }
+
+  .search-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #7b8794;
+    padding: 10px;
+    border-radius: 10px;
+    width: 400px;
+    margin-left: 30px;
+  }
+  .input-search {
+    width: 400px;
+    height: 40px;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    outline: none;
+    color: #1e293b;
+    align-self: center;
+  }
+  .search-img {
+    height: 30px;
+    width: 30px;
+    margin-top: 5px;
+  }
+
+  .tabitem-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    list-style-type: none;
+  }
+
+  .app-item-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100vh;
+    margin-top: 20px;
+  }
+}

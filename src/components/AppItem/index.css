@@ -1,0 +1,48 @@
+/* Write your CSS here */
+
+@media screen and (max-width: 768px) {
+  .ap-item-card {
+    background-color: #ffffff;
+    height: ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    margin: 10px;
+    border-radius: 20px;
+    flex-wrap: wrap;
+  }
+  .ap-item-img {
+    height: 60px;
+    width: 60px;
+    margin-top: 15px;
+  }
+  .ap-name {
+    color: #1e293b;
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .ap-item-card {
+    background-color: #ffffff;
+    height: ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    margin: 10px;
+    border-radius: 20px;
+  }
+  .ap-item-img {
+    height: 80px;
+    width: 80px;
+    margin-top: 15px;
+  }
+  .ap-name {
+    color: #1e293b;
+    font-size: 18px;
+  }
+}
